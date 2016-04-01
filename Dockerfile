@@ -1,4 +1,4 @@
-FROM       ubuntu:%VERSION%
+FROM       ubuntu:14.04
 MAINTAINER Ryan Gifford "https://github.com/llamashoes"
 
 RUN apt-get update
