@@ -3,7 +3,7 @@ MAINTAINER Ryan Gifford "https://github.com/llamashoes"
 
 RUN apt-get update
 
-RUN apt-get install -y openssh-server stress nc curl
+RUN apt-get install -y openssh-server stress curl
 RUN mkdir /var/run/sshd
 
 RUN echo 'root:root' |chpasswd
